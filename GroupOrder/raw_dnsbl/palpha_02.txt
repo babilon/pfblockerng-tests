@@ -1,0 +1,10 @@
+# sample primary alpha 02
+0.palpha02.group.org
+1.palpha02.group.net
+2.palpha02.group.com
+
+also_palpha02.palpha01.com
+beta01.palpha02.biz
+beta01_palpha02.palpha01.com
+
+and_palpha_02.palpha01.fm

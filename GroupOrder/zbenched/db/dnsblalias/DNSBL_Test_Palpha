@@ -1,0 +1,11 @@
+,0.palpha01.group.gov,,0,palpha_01,DNSBL_Test_Palpha,0
+,1.palpha01.group.net,,0,palpha_01,DNSBL_Test_Palpha,0
+,2.palpha01.group.com,,0,palpha_01,DNSBL_Test_Palpha,0
+,also_palpha02.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,0
+,beta01.palpha01.org,,0,palpha_01,DNSBL_Test_Palpha,0
+,beta01_palpha02.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,0
+,0.palpha02.group.org,,0,palpha_02,DNSBL_Test_Palpha,0
+,1.palpha02.group.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,2.palpha02.group.com,,0,palpha_02,DNSBL_Test_Palpha,0
+,beta01.palpha02.biz,,0,palpha_02,DNSBL_Test_Palpha,0
+,bar.com,,0,palpha_03,DNSBL_Test_Palpha,0

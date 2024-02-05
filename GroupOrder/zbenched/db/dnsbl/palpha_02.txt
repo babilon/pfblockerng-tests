@@ -1,0 +1,4 @@
+,0.palpha02.group.org,,0,palpha_02,DNSBL_Test_Palpha,0
+,1.palpha02.group.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,2.palpha02.group.com,,0,palpha_02,DNSBL_Test_Palpha,0
+,beta01.palpha02.biz,,0,palpha_02,DNSBL_Test_Palpha,0

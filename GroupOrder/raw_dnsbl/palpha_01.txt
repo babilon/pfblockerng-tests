@@ -1,0 +1,13 @@
+# sample primary alpha 01
+0.palpha01.group.gov
+1.palpha01.group.net
+2.palpha01.group.com
+
+also_palpha02.palpha01.com
+beta01.palpha01.org
+beta01_palpha02.palpha01.com
+
+not_pbeta01.palpha01.com
+also_beta01_pbeta01.palpha01.cn
+
+and_palpha_02.palpha01.fm

@@ -1,0 +1,10 @@
+# sample beta group 01
+0.beta01.group.com
+1.beta01.group.net
+2.beta01.group.org
+
+beta01.palpha01.org
+beta01_palpha02.palpha01.com
+beta01.palpha02.biz
+
+no_beta01.pbeta01.food

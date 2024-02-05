@@ -1,0 +1,9 @@
+0.pbeta1.group.biz
+1.pbeta1.group.cn
+1.pbeta1.group.ch
+
+not_pbeta01.palpha01.com
+also_beta01_pbeta01.palpha01.cn
+and_palpha_02.palpha01.fm
+
+no_beta01.pbeta01.food

@@ -1,0 +1,7 @@
+,0.palpha02.group.org,,0,palpha_02,DNSBL_Test_Palpha,0
+,1.palpha02.group.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,2.palpha02.group.com,,0,palpha_02,DNSBL_Test_Palpha,0
+,also_palpha02.palpha01.com,,0,palpha_02,DNSBL_Test_Palpha,0
+,and_palpha_02.palpha01.fm,,0,palpha_02,DNSBL_Test_Palpha,0
+,beta01.palpha02.biz,,0,palpha_02,DNSBL_Test_Palpha,0
+,beta01_palpha02.palpha01.com,,0,palpha_02,DNSBL_Test_Palpha,0

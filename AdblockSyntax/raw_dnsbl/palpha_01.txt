@@ -1,0 +1,154 @@
+[Adblock Plus 1.1]
+! Checksum: Cyb2xjFbDtoxBpIeeKB72w
+! Version: 202402070440
+! Title: EasyPrivacy
+! Last modified: 07 Feb 2024 04:40 UTC
+! Expires: 1 days (update frequency)
+! Homepage: https://easylist.to/
+! Licence: https://easylist.to/pages/licence.html
+!
+! Please report any unblocked tracking or problems
+! in the forums (https://forums.lanik.us/)
+! or via e-mail (easylist@protonmail.com).
+!
+!-----------------General tracking systems-----------------!
+! *** easylist:easyprivacy/easyprivacy_general.txt ***
+&action=js_stats&
+&ev=PageView&
+&event=view&
+&EventType=DataDealImpression&
+&EventType=Impression&
+&hitType=pageview&
+&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
+&refer=http$script
+&t=pageview&
+-adobe-analytics.
+-adobe-analytics/
+-adobeDatalayer_bridge.js
+-click-tracker.
+-didomi.js
+-geoIP.js
+-inview-tracker.
+-scroll-tracker.js
+-track-inview.
+-tracking-pixel.
+-universal-analytics/
+.beacon.min.js
+.com/_.gif?
+.com/clk?
+.com/count?
+.com/counter?
+.com/dc.gif?
+.com/g.gif?
+.com/log/?
+.com/stats.aspx?
+.com/track?$~object
+.content_tracking.js
+.de/h.gif?
+.de/l.gif?
+.eloqua.js
+.EventTracking.
+.gatracking.js
+.gif?Log=
+.jp/pv?
+.jp/static/js/track.js
+.lms-analytics/
+.net/l.gif?
+.no/app/aas/a
+.php?action=browse&
+.php?action_name=
+.php?logRefer=
+.php?logType=
+.php?notrack=
+.php?p=stats&
+.php?ping=
+.php?stats=
+.php?tracking=
+.sharecounter.$third-party
+.skimlinks.js
+.stats?action=
+.svc/?tracking_id=
+.v4.analytics.
+/.webscale/rum?
+/.well-known/shopify/monorail
+/0.gif?
+/0c.gif?
+/0pixel.php?
+/1.gif?
+/1pixel.php
+/1px.gif?
+/1px.php?
+/1x1.gif?
+/1x1.png?
+/2.gif?
+/24h-analytics.
+/2x2.gif?$image
+/3.gif?
+/500b-bench.jpg?
+/?dm=*&blogid=$script
+/?essb_counter_
+/?livehit=
+/?log=experiment&
+/?log=performance-
+/?record&key=
+/?sentry_key=
+/?sentry_version=
+/?swift-performance-tracking
+/_/api/v2/analytics/?
+/_/lite/performance/*
+/__imp_apg__/*
+/__rmn.gif?
+/__ssobj/core.js
+/__ssobj/rum?
+/__ssobj/sync?$image
+/__sttm.gif?
+/__ub.gif?
+/__utm.gif
+/__utm.js
+/__wsm.gif
+/_blazor/*$ping
+/_ga?send&
+/_ga?sponsor_pixel=
+/_gz/counter.php?
+/_hcms/perf
+/_lib/ga.js
+/_owa.gif?
+/_sess/script.js
+/_stat/log/*
+/_stat/log_
+/_tracking/*
+/_vercel/insights/script.js
+/_visitcount?
+.spreadshirt.net/mo/$image
+.starbucks.com/a/
+dot.example.com
+/cp.gap.com/o/*$image
+/e.customeriomail.com/e/o/*$image
+/email-pixel?
+/email.t.*/o/*$image
+
+!-----------------Third-party tracking domains-----------------!
+! *** easylist:easyprivacy/easyprivacy_trackingservers_general.txt ***
+! easyprivacy_trackingservers_general.txt
+||00px.net^
+||1cros.net^
+||2cnt.net^
+||afftrack.pro^$third-party
+||afsanalytics.com^$third-party
+||afterclick.co^$third-party
+||agentanalytics.com^$third-party
+||agentinteractive.com^$third-party
+||agilecrm.com^$third-party
+
+||cnzz.com/c.php?
+
+||cri.cn/js/a1.js
+||csdn.net^*/counter.js
+
+@@||gemius.pl/gplayer.js$domain=tsn.ua
+@@||privatbank.ua/content/*/fp2.min.js$~third-party
+@@||uaprom.net/image/blank.gif?$image
+
+!---------- Anti-Adblock ----------
+!
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
