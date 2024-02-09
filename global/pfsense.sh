@@ -94,7 +94,7 @@ function update_benchmark() {
 	if [ ${UPDATEBENCHMARK} == true ]; then
 		echo "Update benchmark" | ${TEECMD} "${LOGFILE}"
 		/bin/rm -rf "${BLOCKLIST_BENCHMARK}"
-		/bin/cp -r "${BLOCKLIST_RESULTS}" "${BLOCKLIST_BENCHMARK}" 
+		/bin/cp -r "${BLOCKLIST_RESULTS}" "${BLOCKLIST_BENCHMARK}"
 	fi
 
 	return 0
