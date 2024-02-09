@@ -38,7 +38,7 @@ function clean_httpdocs() {
 		echo "Clean remote webserver httpdocs" | ${TEECMD} "${LOGFILE}"
 		/bin/ssh -i ${IDENTITY_FILE} -p ${WEBSERVER_PORT} \
 			${WEBSERVER_USERNAME}@${WEBSERVER_HOSTNAME} \
-			"rm -f ${WEBSERVER_HTTPDOCS}/*${ext}"
+			"rm -f ${WEBSERVER_HTTPDOCS}/*${EXT}"
 		ret=$?
 		if [ ${ret} -ne 0 ]; then
 			echo "Failed to clean webserver's ${WEBSERVER_HTTPDOCS}"
@@ -46,7 +46,7 @@ function clean_httpdocs() {
 		fi
 	else
 		echo "Clean local httpdocs" | ${TEECMD} "${LOGFILE}"
-		/bin/rm -f "${WEBSERVER_HTTPDOCS}/*${ext}"
+		/bin/rm -f "${WEBSERVER_HTTPDOCS}/*${EXT}"
 	fi
 }
 
@@ -126,7 +126,7 @@ function stage_raw_dnsbl() {
 }
 
 function clean_stage() {
-	/bin/rm -f "${BLOCKLIST_STAGEDIR}/*"
+	/bin/rm -rf "${BLOCKLIST_STAGEDIR}/"
 	/bin/mkdir -p "${BLOCKLIST_STAGEDIR}"
 }
 
