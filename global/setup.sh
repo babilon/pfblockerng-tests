@@ -130,6 +130,11 @@ function clean_stage() {
 	/bin/mkdir -p "${BLOCKLIST_STAGEDIR}"
 }
 
+function clean_results() {
+	/bin/rm -rf "${BLOCKLIST_RESULTS}/"
+	/bin/mkdir -p "${BLOCKLIST_RESULTS}"
+}
+
 function _started_test() {
 	echo "$(date) : STARTED ${SETUP_TESTNAME} test" | ${TEECMD} "${LOGFILE}"
 }
@@ -165,6 +170,7 @@ function setup() {
 	fi
 
 	clean_stage
+	clean_results
 	clean_httpdocs
 	stage_raw_dnsbl
 	upload_raw_dnsbl
