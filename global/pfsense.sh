@@ -85,6 +85,12 @@ function capture_pfsense() {
 		exit ${ret}
 	fi
 
+	/usr/bin/find ./zbenched/ ./zresults.nogit/ ./zstaged.nogit/ -type f -empty -exec rm {} \;
+	if [ ${ret} -ne 0 ]; then
+		echo "find and rm empty files in zbenched/ and zresults.nogit/ and exited non-zero ${ret}"
+		exit ${ret}
+	fi
+
 	return 0
 }
 
