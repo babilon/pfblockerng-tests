@@ -1,0 +1,11 @@
+||gamma01.subdomain.gamma01.biz^
+! none of these should take precendence
+||pre-sub.subdomain.palpha01.com^
+||subdomain.palpha01.com^
+||post-sub.subdomain.palpha01.com^
+||invisible.subdomain.palpha01.com^
+||a.subdomain.palpha01.com^
+||z.subdomain.palpha01.com^
+||only.gamma.biz^
+||gamma.palpha02.net^
+||gamma.www.palpha02.net^

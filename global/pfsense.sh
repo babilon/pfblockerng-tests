@@ -2,21 +2,24 @@
 
 source ../global/variables.sh
 
-function clean_pfsense() {
-	# TBD: delete specifics or all?
-	#		"/var/db/pfblockerng/dnsbl/" \
-	#		"/var/db/pfblockerng/dnsblorig/" \
-	#		"/var/db/pfblockerng/dnsblalias/" \
-	#		"/var/db/pfblockerng/deny/" \
-	#		"/var/db/pfblockerng/match/" \
+function clean_pfsense_query() {
 	if [ ${DRYRUN} == false ]; then
 		/bin/ssh -i ${IDENTITY_FILE} -p ${PFSENSE_PORT} \
 			${PFSENSE_USERNAME}@${PFSENSE_HOSTNAME} \
-			"rm -rf " \
-			"/var/db/pfblockerng/" \
-			"/var/log/pfblockerng/dnsbl.log" \
-			"/var/log/pfblockerng/pfblockerng.log" \
-			"/var/log/pfblockerng/dnsbl_parsed_error.log"
+			"${PFSENSE_RMPATH} -rf " \
+			"/var/log/pfblockerng/dnsbl.log"
+	else
+		echo "DRYRUN rm -rf /var/log/pfblockerng/dnsbl.log"
+	fi
+}
+
+function clean_pfsense() {
+	if [ ${DRYRUN} == false ]; then
+		/bin/ssh -i ${IDENTITY_FILE} -p ${PFSENSE_PORT} \
+			${PFSENSE_USERNAME}@${PFSENSE_HOSTNAME} \
+			"${PFSENSE_RMPATH} -rf " \
+			"/var/db/pfblockerng/*" \
+			"/var/log/pfblockerng/*"
 	else
 		echo "DRYRUN rm -rf /var/db/pfblockerng/ and /var/log/pfblockerng/"
 	fi

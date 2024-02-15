@@ -1,0 +1,8 @@
+# Adblock style with mixed content
+! also mixed style comments
+domain.without.adbstyle.com
+||domain.with.adbstyle.com^
+192.168.10.10
+domain.ignored.adbstyle.com
+0.0.0.0 one.hoststyle.com
+127.0.0.1 another.hoststyle.com

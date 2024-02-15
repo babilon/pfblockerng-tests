@@ -1,0 +1,3 @@
+,aleading.space.neverhurt.biz,,0,beta03,DNSBL_Test_Beta,0
+,another.aretheyfound.biz,,0,beta03,DNSBL_Test_Beta,0
+,raw.domains.aretheyfound.biz,,0,beta03,DNSBL_Test_Beta,0

@@ -1,0 +1,7 @@
+# use of pound for comment
+raw.domains.aretheyfound.net
+another.aretheyfound.net
+#omit.this.domain.org
+33.30.30.1 # duplicate in beta03.txt
+33.32.32.1
+  another.leading.space.neverhurt.net

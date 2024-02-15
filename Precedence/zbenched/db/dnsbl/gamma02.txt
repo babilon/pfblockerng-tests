@@ -1,0 +1,2 @@
+,gamma.palpha02.gamma.org,,0,gamma02,DNSBL_Test_Gamma,1
+,www.palpha02.com,,0,gamma02,DNSBL_Test_Gamma,1

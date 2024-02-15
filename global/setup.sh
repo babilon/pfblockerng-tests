@@ -38,7 +38,7 @@ function clean_httpdocs() {
 		echo "Clean remote webserver httpdocs" | ${TEECMD} "${LOGFILE}"
 		/bin/ssh -i ${IDENTITY_FILE} -p ${WEBSERVER_PORT} \
 			${WEBSERVER_USERNAME}@${WEBSERVER_HOSTNAME} \
-			"rm -f ${WEBSERVER_HTTPDOCS}/*${EXT}"
+			"${WEBSERVER_RMPATH} -f ${WEBSERVER_HTTPDOCS}/*${EXT}"
 		ret=$?
 		if [ ${ret} -ne 0 ]; then
 			echo "Failed to clean webserver's ${WEBSERVER_HTTPDOCS}"
@@ -125,6 +125,11 @@ function stage_raw_dnsbl() {
 	done
 }
 
+function clean_query_results() {
+	/bin/rm -rf "${QUERYLIST_RESULTS}/"
+	/bin/mkdir -p "${QUERYLIST_RESULTS}"
+}
+
 function clean_stage() {
 	/bin/rm -rf "${BLOCKLIST_STAGEDIR}/"
 	/bin/mkdir -p "${BLOCKLIST_STAGEDIR}"
@@ -141,6 +146,23 @@ function _started_test() {
 
 function _finished_test() {
 	echo "$(date) : FINISHED test" | ${TEECMD} "${LOGFILE}"
+}
+
+function setupquery() {
+	testpath=$1
+	parsearg1 $2
+
+	if [ -z "${testpath}" ]; then
+		echo "ERROR: Missing argument testpath empty for ${FUNCNAME[0]}" >> "${LOGFILE}"
+		exit 1
+	fi
+
+	QUERYLIST_RESULTS="${testpath}/${_resultsdir}/query"
+	QUERYLIST_BENCHMARK="${testpath}/${_benchmarkdir}/query"
+	check_query_vars
+
+	clean_pfsense_query
+	clean_query_results
 }
 
 # like the main function: this does all the things

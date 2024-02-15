@@ -1,0 +1,5 @@
+# some regex entries
+willnotsee.pbeta01.com
+willsee.pbeta01.net
+[a-z]+\.pbeta01\.com
+hopetonotsee.pbeta01.com

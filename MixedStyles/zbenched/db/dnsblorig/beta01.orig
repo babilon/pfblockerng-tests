@@ -1,0 +1,11 @@
+! use of exlamation for comment
+raw.domains.aretheyfound.com
+another.aretheyfound.com
+!omit.this.domain.org
+33.20.20.1
+	leading.tab.neverhurt.com
+	  	leading.tab-space-tab.neverhurt.com
+# comments on more lines
+		! 192.168.1.1
+		comments.after.domain.com # pound sign comment
+		moar.after.domain.com ! pound sign comment

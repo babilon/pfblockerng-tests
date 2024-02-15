@@ -1,0 +1,8 @@
+# use of pound for comment
+! mixed use of comments
+raw.domains.aretheyfound.biz
+another.aretheyfound.biz
+#omit.this.domain.org
+!alsoomit.this.domain.org
+33.30.30.1 # duplicate in beta02.txt
+ aleading.space.neverhurt.biz

@@ -1,0 +1,6 @@
+,palpha02.com,,0,palpha_02,DNSBL_Test_Palpha,0
+,palpha02.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,post-sub.subdomain.palpha02.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,pre-sub.subdomain.palpha02.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,subdomain.palpha02.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,www.palpha02.net,,0,palpha_02,DNSBL_Test_Palpha,0

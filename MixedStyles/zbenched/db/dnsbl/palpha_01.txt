@@ -1,0 +1,11 @@
+,adsafety.net,,0,palpha_01,DNSBL_Test_Palpha,1
+,adsagony.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,adsalo.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,adsame.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,adsandcomputer.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,adsassure.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,ansf.shop,,0,palpha_01,DNSBL_Test_Palpha,1
+,anssigia.xyz,,0,palpha_01,DNSBL_Test_Palpha,1
+,d1j6limf657foe.cloudfront.net,,0,palpha_01,DNSBL_Test_Palpha,1
+,d1j818d3wapogd.cloudfront.net,,0,palpha_01,DNSBL_Test_Palpha,1
+,d1j9qsxe04m2ki.cloudfront.net,,0,palpha_01,DNSBL_Test_Palpha,1

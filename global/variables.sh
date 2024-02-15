@@ -8,11 +8,13 @@ IDENTITY_FILE="${HOME}/.ssh/id_rsa"
 PFSENSE_USERNAME='admin'
 PFSENSE_HOSTNAME='192.168.1.X'
 PFSENSE_PORT=22
+PFSENSE_RMPATH='/bin/rm'
 
 WEBSERVER_USERNAME="username"
 WEBSERVER_HOSTNAME="webserver.localdomain"
 WEBSERVER_PORT=22
 WEBSERVER_HTTPDOCS='/var/www/htdocs/pfblockerng/testing'
+WEBSERVER_RMPATH='/bin/rm'
 
 DIFFARGS="-qr"
 
@@ -31,6 +33,9 @@ BLOCKLIST_STAGEDIR=
 BLOCKLIST_RESULTS=
 BLOCKLIST_BENCHMARK=
 SETUP_TESTNAME=
+
+QUERYLIST_RESULTS=
+QUERYLIST_BENCHMARK=
 
 # a list of all files that pfBlockerNG is configured to reference from the
 # webserver. Initially support for exactly one webserver to serve these files.
@@ -108,6 +113,20 @@ function checks_and_balances() {
 			exit 1
 		fi
 	fi
+}
+
+function check_query_vars() {
+	if [ -z "${QUERYLIST_RESULTS}" ]; then
+		echo "ERROR: QUERYLIST_RESULTS is empty or unset" | ${TEECMD} "${LOGFILE}"
+		exit -1
+	fi
+
+	if [ -z "${QUERYLIST_BENCHMARK}" ]; then
+		echo "ERROR: QUERYLIST_BENCHMARK is empty or unset" | ${TEECMD} "${LOGFILE}"
+		exit -1
+	fi
+
+	return 0
 }
 
 function check_runtime_vars() {

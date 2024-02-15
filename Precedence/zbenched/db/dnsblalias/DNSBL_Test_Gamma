@@ -1,0 +1,6 @@
+,gamma.palpha02.net,,0,gamma01,DNSBL_Test_Gamma,1
+,gamma.www.palpha02.net,,0,gamma01,DNSBL_Test_Gamma,1
+,gamma01.subdomain.gamma01.biz,,0,gamma01,DNSBL_Test_Gamma,1
+,only.gamma.biz,,0,gamma01,DNSBL_Test_Gamma,1
+,gamma.palpha02.gamma.org,,0,gamma02,DNSBL_Test_Gamma,1
+,www.palpha02.com,,0,gamma02,DNSBL_Test_Gamma,1

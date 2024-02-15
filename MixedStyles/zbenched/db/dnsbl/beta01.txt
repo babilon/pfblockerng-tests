@@ -1,0 +1,5 @@
+,another.aretheyfound.com,,0,beta01,DNSBL_Test_Beta,0
+,comments.after.domain.com,,0,beta01,DNSBL_Test_Beta,0
+,leading.tab-space-tab.neverhurt.com,,0,beta01,DNSBL_Test_Beta,0
+,leading.tab.neverhurt.com,,0,beta01,DNSBL_Test_Beta,0
+,raw.domains.aretheyfound.com,,0,beta01,DNSBL_Test_Beta,0

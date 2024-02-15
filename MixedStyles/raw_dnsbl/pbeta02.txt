@@ -1,0 +1,6 @@
+
+||willnotsee.pbeta02.com^
+||willsee.pbeta02.net^
+||[a-z]+\.pbeta02\.com^
+||*.pbeta02.com^
+||hopetonotsee.pbeta02.com^

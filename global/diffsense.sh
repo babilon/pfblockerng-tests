@@ -109,3 +109,11 @@ function diff_original() {
 	printf "diff original .." | ${TEECMD} "${LOGFILE}"
 	_run_diff "${r}" "${b}"
 }
+
+function diff_query() {
+	check_query_vars
+	r="${QUERYLIST_RESULTS}/dnsbl.dateless.log"
+	b="${QUERYLIST_BENCHMARK}/dnsbl.dateless.log"
+	printf "diff query log .." | ${TEECMD} "${LOGFILE}"
+	_run_diff "${r}" "${b}"
+}

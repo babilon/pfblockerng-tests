@@ -1,0 +1,6 @@
+,pre-sub.subdomain.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,subdomain.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,post-sub.subdomain.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,invisible.subdomain.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,a.subdomain.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,1
+,z.subdomain.palpha01.com,,0,palpha_01,DNSBL_Test_Palpha,1

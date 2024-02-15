@@ -1,0 +1,9 @@
+,bad.palpha03.org,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.ignored.post-sub.subdomain.palpha01.com,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.ignored.pre-sub.subdomain.palpha01.com,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.ignored.subdomain.palpha01.com,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.palpha02.net,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.post-sub.subdomain.palpha02.net,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.pre-sub.subdomain.palpha02.net,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.subdomain.palpha02.net,,0,palpha_03,DNSBL_Test_Palpha,1
+,palpha03.www.palpha02.net,,0,palpha_03,DNSBL_Test_Palpha,1

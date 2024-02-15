@@ -1,0 +1,3 @@
+,hopetonotsee.pbeta01.com,,0,pbeta01,DNSBL_Test_Pbeta,0
+,willnotsee.pbeta01.com,,0,pbeta01,DNSBL_Test_Pbeta,0
+,willsee.pbeta01.net,,0,pbeta01,DNSBL_Test_Pbeta,0

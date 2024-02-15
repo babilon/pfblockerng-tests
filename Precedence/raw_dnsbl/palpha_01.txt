@@ -1,0 +1,6 @@
+||pre-sub.subdomain.palpha01.com^
+||subdomain.palpha01.com^
+||post-sub.subdomain.palpha01.com^
+||invisible.subdomain.palpha01.com^
+||a.subdomain.palpha01.com^
+||z.subdomain.palpha01.com^

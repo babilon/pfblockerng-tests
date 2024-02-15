@@ -1,0 +1,16 @@
+# Adblock style with mixed content
+! also mixed style comments
+domain.without.adbstyle2.com
+||domain.with.adbstyle2.com
+||cached.*/without.ending.carrot.com
+begins.without.doublevertbar.net^
+127.0.0.1 ||curve.ballsz.com^
+||invalid domain here what happens^
+|| another bogus entry with bad syntax ^/
+||ignored.entry.adbstyle.com^$script
+192.168.12.12
+domain.ignored.adbstyle2.com
+0.0.0.0 one.hoststyle2.com
+127.0.0.1 another.hoststyle2.com
+#it will find this b/c something earlier tagged this file as "EasyList"
+#||gamma02.onlyone.adbstyle2.com^

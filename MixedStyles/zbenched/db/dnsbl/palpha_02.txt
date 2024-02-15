@@ -1,0 +1,4 @@
+,and.onedomain.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,herecomes.one.ip,,0,palpha_02,DNSBL_Test_Palpha,0
+,no.comments.net,,0,palpha_02,DNSBL_Test_Palpha,0
+,onelong.subdomain.here.com,,0,palpha_02,DNSBL_Test_Palpha,0
